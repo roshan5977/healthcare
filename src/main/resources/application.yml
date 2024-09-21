@@ -1,0 +1,17 @@
+api:
+  work-url: "http://10.10.90.71:2000/getwork"
+amazon:
+  dynamodb:
+#    region: us-east-1  # Your AWS region
+  region: fakeRegion  # Your AWS region
+
+  aws:
+    accesskey: fakeMyKeyId    
+    secretkey: fakeSecretAccessKey     
+  kms:
+    keyId: YOUR_KMS_KEY_ID         # Replace with the KMS Key ID
+#		region: us-east-1              # Replace with the actual region
+
+logging:
+  level:
+    root: INFO
